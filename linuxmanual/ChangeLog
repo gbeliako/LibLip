@@ -1,0 +1,5 @@
+Class libarry Lip for multivariate scatterd data interpolation (v 1.0.0)
+
+v1.2.0 changes:
+	- new version of TNT library included
+	- introduction of slipint class for explicit evalutaion

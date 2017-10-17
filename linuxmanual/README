@@ -1,0 +1,295 @@
+**************************************************************************
+*                                                                        *
+*     CLASS LIBRARY LIP FOR MULTIVARIATE SCATTERD DATA INTERPOLATION     *
+*                                                                        *
+*                   GNU GENERAL PUBLIC LICENSE                           *
+*                      Version 2, June 1991                              *
+*                                                                        *
+*    Everyone is permitted to copy and distribute verbatim copies        *
+*    of this license document, but changing it is not allowed.           *
+*                                                                        *
+*    Report Bugs to <gleb@deakin.edu.au, eteban@v7w.com>                  *
+*                                                                        *
+**************************************************************************
+
+README FILE
+============
+
+Table of Contents:
+------------------
+
+	1. Tar ball Contents
+	2. Lip Installation Guide
+		2.1 Using lipinstall Script
+		2.2 Installing as Superuser (root access)
+		2.3 Installing Without Root Access
+	3. Info Manual
+	4. linking to the library
+		4.1 linking to library in search path
+		4.2 linking to library not in search path
+		4.3 compiling examples
+	5. Uninstall
+	6. Trouble Shooting
+
+====================
+1. Tar ball Contents
+====================
+
+Once you have extracted the source files and various installation scripts
+form the tar ball "Lip.1.2.tar.gz" you should find therein the following:
+
+	- lipinstall:		Script that helps to install the library.
+
+	- lipuninstall:		Script that helps to uninstall the library.
+
+	- lip.info:		Info manual page containing references to Lip
+				interface, examples and other information.
+
+	- src directory:	Contains source and header files listed bellow.
+
+	- Source Code :		consist of the following:
+					* interpol.cpp
+					* intwrapper.cpp
+					* forest.cpp
+					* slipint.cpp
+
+	- Header Files:		consist of the following:
+					* interpol.h
+					* intwrapper.h
+					* forest.h
+					* slipint.h
+
+	- EXAMPLES:		Examples directory includes example code and
+				a makefile which illustrates how to link to
+				shared library and static library.
+
+	- DOCS:			Docs directories include the description of the library and
+				other documentation which might be of interest to the user.
+
+	- tnt library:		C++ library for vector and matrix manipulation
+				for more information please look at the source.
+				refer to <http://math.nist.gov/tnt/>. As a
+				user you do not need to use it.
+
+=========================
+2. Lip Installation Guide
+=========================
+
+Installation of Lip can be done in two ways: as a normal user, or ideally as a
+superuser. Both ways are very similar and are described bellow. INSTALLATION MUST BE
+CARRIED OUT FROM THE DIRECTORY INTO WHICH THE TARBALL WAS EXTRACTED.
+
+---------------------------
+2.1 Using lipinstall scrip
+---------------------------
+
+Included with this distribution is the "lipinstall' script that runs "configure", "make
+install" and installs include documentation as described in sections 2.1 and 2.2.
+lipinstall script must be used in the following manner.
+
+	lipinstall [ | installation_directory ]
+	
+So it either takes no arguments of an install directory. If no arguments are passed to
+the script then it tries to install the lip library in /usr/local (as described in 2.2).
+If an installation_directory is given then the script will try and do the install in 
+the given directory ( see section 2.3 ).
+
+------------------------------------------
+2.2 Installing as Superuser (root access)
+------------------------------------------
+
+If you do not have an account with root access go to section 2.2. Otherwise
+follow the instructions bellow.
+
+1. login as root in any shell, using the command shown below
+
+	e.g. shell-promp$ su -
+
+2. run lipinstall script. It will install the library and other documentation.
+
+	e.g. shell-promp$ ./lipinstall
+
+the above example installs the library in the default directory "/usr/local/".
+The library and other files will be installed as follows:
+
+	- library files  		"/usr/local/lib/"
+	- info manual 			"/usr/local/info/"
+	- *.h files			"/usr/local/include"
+	- examples			"/usr/local/share/doc/Lip.1.2/DOCS"
+	- documents			"/usr/local/share/doc/Lip.1.2/EXAMPLES"
+
+3. at this time the library should be installed in /usr/local/lib (as
+suggested by the GNU standards for libraries that are not part of the
+system).
+
+Most Linux distributions have included the /usr/local/lib path in the
+/etc/ld.so.conf file, which stores all search paths the OS searches when
+loading shared libraries at boot time. red hat does not do this so add it.
+
+4. once step 3 is completed, in order not to have to restart the computer
+just run /sbin/ldconfig which loads shared libraries form the path stored
+in /etc/ld.so.conf. You will not have to do this again, as it gets done
+automatically every time the OS boots.
+
+5. You are ready to use Lip. Please read linking instructions in section 4.1
+
+-----------------------------------
+2.3 Installing Without Root Access
+-----------------------------------
+
+If your account does not allow for root access, then install Lip into your home 
+directory following these instructions.
+
+1. run lipinstall script along with the directory you want Lip to be installed to. 
+
+	e.g. shell-promp$ ./lipinstall /home/user_name/lip
+
+the above example installs the library in the directory "/home/user_name/lip".
+Please note that /home/user_name/lip is a made up directory... when you
+install the library replace user_name with your actual user name, or enter a 
+different director of your choosing.
+
+The library and other files will be included as follows:
+
+	- library files  		"/home/user_name/lip/lib/"
+	- info manual 			"/home/user_name/lip/info/"
+	- *.h files			"/home/user_name/lip/include"
+	- examples			"/home/user_name/lip/DOCS"
+	- documents			"/home/user_name/lip/EXAMPLES"
+
+2. to link and compile please read section 4.2
+
+===============
+3. Info Manual
+===============
+
+This distribution comes with an info manual named "lip". If you have installed
+the Lip library as a root, then to access the manual just type "info lip" at the
+promp.
+
+	e.g. shell-promp$ info lip
+
+else you are going to have to specify the directory where the lip.info is
+located.
+
+	e.g. shell-promp$ info /usr/local/info/lip
+
+	Or in your home directory under a directory you created named "Lip"
+
+	e.g. shell-promp$ info $HOME/Lip/info/lip
+
+
+==========================
+4. linking to the library
+==========================
+
+--------------------------------------------------------
+4.1 linking to the library in search path (shared library)
+--------------------------------------------------------
+
+If you have installed the library in the default path /usr/local/lib and this
+directory exists in /etc/ld.so.conf and loaded using /sbin/ldconfig ,then
+linking and compiling your code is simple.
+
+	1. make sure that the appropriate headers are placed in your code
+	------------------------------------------------------------
+	#include <interpol.h>
+
+	//Or if using the procedural interface
+
+	#include <intwrapper.h>
+
+	------------------------------------------------------------
+
+	2. Assume your code is in file named example.cpp. Then to compile and link use
+
+	------------------------------------------------------------
+	g++ -c example.cpp
+	g++ -o example example.o -llip -lm
+
+	------------------------------------------------------------
+
+the resulting executable will be "example".
+
+-----------------------------------------
+4.2 linking to library not in search path
+-----------------------------------------
+
+If you have installed the library in a directory that is not listed in
+/etc/ld.so.conf, then there are a few options:
+
+	1. If you have installed Lip to your home directory then use static linking.
+	Example:
+
+	a. make sure you have included the right headers
+	------------------------------------------------------------
+	#include "interpol.h"
+
+	//Or, if using the procedural interface
+
+	#include "intwrapper.h"
+
+	------------------------------------------------------------
+
+	b. Use -I option to tell thecompiler where to locate header files
+	and then link to liblip.a (static library) directly.
+	------------------------------------------------------------
+
+	g++ -c example.cpp -I/home/user_name/Lip/include
+
+	g++ -o example -non_shared example.o /home/user_name/Lip/lib/liblip.a -lm
+	// instead of -non_shared, some compilers require -static option, or none at all 
+	
+	------------------------------------------------------------
+
+      Alternatively: 
+	2. Get the system administrator to add the installation directory to
+	/ect/ld.so.conf file. This could be /home/user_name/lip/lib.
+
+	3. Add the library directory to the environment variable LD_LIBRAY_PATH,
+	used during linking.
+
+	4. Finally you can use the `-Wl,--rpath -Wl,LIBDIR' linker flags. Note
+	that if you do not use -Wl option then the compiler may quietly drop
+	away linker flags.
+
+-----------------------------------------
+4.3 compiling the examples
+-----------------------------------------
+
+	1. change to EXAMPLES directory
+
+	2. if you have installed Lip into /usr/local/lib (with root access) you do not need to
+  	change makefile. Otherwise edit makefile, and specify the path to the directories you
+	installed Lip to: change the lines specifying LIB_PATH  and INCLUDE_PATH,
+	e.g. LIB_PATH = /home/user_name/Lip/lib/
+	INCLUDE_PATH = /home/user_name/Lip/include/
+
+	3. run "make" command
+
+	If you did not install Lip to the default directories, building of shared_example and static_example
+	targets may not work. However targets static_example2 and static_example3 will compile,
+	as in both case static linking is used.
+
+
+=================
+5. Uninstall Lip
+=================
+
+To uninstall simply run the lipuninstall script at the promp.
+
+	e.g. shell-promp$ ./lipuninstall
+
+====================
+6. Trouble Shooting
+====================
+
+1. Compilation:
+
+	- depemding on how the local C++ compiler has been installed on a given machine, there might be a
+	need to give it some different options. To do so in the fiel "Makefile" look for the variable
+	liblip_la_CXXFLAGS and assign it the right options.
+
+	- all the source files needed to compile the library are included with this distribution, so if you are
+	having trouble with the autotools you can try and compile it yourself. (e.g. make your own makefile or 
+	use libtool).
