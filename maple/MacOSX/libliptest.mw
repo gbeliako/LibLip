@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2017" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1440" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[0,0,0]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[0,0,0]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[0,0,0]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[0,0,0]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[0,0,0]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Text" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[0,0,0]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L3">
+<Input><Text-field style="Title" layout="Title">LibLip Maple toolbox</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4">
+<Input><Text-field style="Author" layout="Author">School of Engineering and IT, Deakin University, Australia</Text-field><Text-field style="Author" layout="Author"><Font style="Text">Copyright Gleb Beliakov, 2006</Font></Text-field><Text-field style="Author" layout="Author"><Font style="Text">Australia</Font></Text-field><Text-field style="Author" layout="Author"><Font style="Text">gbeliako@gmail.com</Font></Text-field><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L5">
+<Input><Text-field style="Text" layout="Normal"><Font size="16" bold="true">Installation instructions: </Font>
+To use this worksheet you need to have <Font bold="true">MapleLibLip.dll </Font>library in the curent directory or on the path</Text-field>
+</Input>
+</Group>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Introduction</Text-field></Title>
+<Group labelreference="L6">
+<Input><Text-field style="Text" layout="Normal"><Font size="14" bold="true">This worksheet illustrates how LibLip package can be used with Maple (under MS Windows).</Font>  </Text-field><Text-field style="Text" layout="Normal"><Font bold="true">LibLip</Font> is a programming library for interpolation and smoothing of multivariate scattered data with Lipschitz functions.</Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"> <Font bold="true">Please see the user manual supplied with this worksheet.</Font></Text-field><Text-field style="Text" layout="Normal">
+This worksheet is provided as a template for user's own calculations. It shows how to declare the data and </Text-field><Text-field style="Text" layout="Normal">supply it to LibLip methods.</Text-field><Text-field style="Text" layout="Normal">It should be used in conjunction with the supplied dll (<Font bold="true">MapleLibLip.dll</Font>), and the user manual (liblipmaple.pdf).</Text-field><Text-field style="Text" layout="Normal">
+The typical calling sequence is as follows:</Text-field><Text-field style="Text" layout="Normal">1. execute define_external procedures in the next subsection</Text-field><Text-field style="Text" layout="Normal">2. Define your data</Text-field><Text-field style="Text" layout="Normal">3. call the relevant  interpolaiton routines with correct arguments
+</Text-field><Text-field style="Text" layout="Normal">Please change the LIBLIPPATH line below to the location of this package on your computer!</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Initialization: Declarations of LibLip procedures found in the library</Text-field></Title>
+<Group labelreference="L7">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart; 
+with(plots):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L8">
+<Input><Text-field style="Text" layout="Normal">Execute the commands below to declare the external subroutines from LibLip library.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L9">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">DLLPATH:=&quot;mapleliblip.so&quot;:
+    # if you need to provide full path, use, e.g.,DLLPATH:=&quot;c:/work/maple/mapleliblip.dll&quot;:
+LipIntValue := define_external('MWRAP_LipIntValue','MAPLE', LIB=DLLPATH):
+LipIntValueAuto := define_external('MWRAP_LipIntValueAuto','MAPLE', LIB=DLLPATH):
+LipIntValueCons := define_external('MWRAP_LipIntValueCons','MAPLE', LIB=DLLPATH):
+LipIntValueConsLeftRegion := define_external('MWRAP_LipIntValueConsLeftRegion','MAPLE', LIB=DLLPATH):
+LipIntValueConsRightRegion := define_external('MWRAP_LipIntValueConsRightRegion','MAPLE', LIB=DLLPATH):
+LipIntValueLocal := define_external('MWRAP_LipIntValueLocal','MAPLE', LIB=DLLPATH):
+LipIntValueLocalCons := define_external('MWRAP_LipIntValueLocalCons','MAPLE', LIB=DLLPATH):
+LipIntValueLocalConsLeftRegion := define_external('MWRAP_LipIntValueLocalConsLeftRegion','MAPLE', LIB=DLLPATH):
+LipIntValueLocalConsRightRegion := define_external('MWRAP_LipIntValueLocalConsRightRegion','MAPLE', LIB=DLLPATH):
+LipIntComputeLipschitz := define_external('MWRAP_LipIntComputeLipschitz','MAPLE', LIB=DLLPATH):
+LipIntComputeLocalLipschitz := define_external('MWRAP_LipIntComputeLocalLipschitz','MAPLE', LIB=DLLPATH):
+LipIntComputeLipschitzCV := define_external('MWRAP_LipIntComputeLipschitzCV','MAPLE', LIB=DLLPATH):
+LipIntComputeLipschitzSplit := define_external('MWRAP_LipIntComputeLipschitzSplit','MAPLE', LIB=DLLPATH):
+LipIntSmoothLipschitz := define_external('MWRAP_LipIntSmoothLipschitz','MAPLE', LIB=DLLPATH):
+LipIntGetLipConst := define_external('MWRAP_LipIntGetLipConst','MAPLE', LIB=DLLPATH):
+LipIntGetScaling := define_external('MWRAP_LipIntGetScaling','MAPLE', LIB=DLLPATH):
+LipIntComputeScaling := define_external('MWRAP_LipIntComputeScaling','MAPLE', LIB=DLLPATH):
+LipIntVerifyMonotonicity := define_external('MWRAP_LipIntVerifyMonotonicity','MAPLE', LIB=DLLPATH):
+LipIntVerifyMonotonicityLeftRegion := define_external('MWRAP_LipIntVerifyMonotonicityLeftRegion','MAPLE', LIB=DLLPATH):
+LipIntVerifyMonotonicityRightRegion := define_external('MWRAP_LipIntVerifyMonotonicityRightRegion','MAPLE', LIB=DLLPATH):
+
+LipIntInfValue := define_external('MWRAP_LipIntInfValue','MAPLE', LIB=DLLPATH):
+LipIntInfValueAuto := define_external('MWRAP_LipIntInfValueAuto','MAPLE', LIB=DLLPATH):
+LipIntInfValueCons := define_external('MWRAP_LipIntInfValueCons','MAPLE', LIB=DLLPATH):
+LipIntInfValueConsLeftRegion := define_external('MWRAP_LipIntInfValueConsLeftRegion','MAPLE', LIB=DLLPATH):
+LipIntInfValueConsRightRegion := define_external('MWRAP_LipIntInfValueConsRightRegion','MAPLE', LIB=DLLPATH):
+LipIntInfValueLocal := define_external('MWRAP_LipIntInfValueLocal','MAPLE', LIB=DLLPATH):
+LipIntInfValueLocalCons := define_external('MWRAP_LipIntInfValueLocalCons','MAPLE', LIB=DLLPATH):
+LipIntInfValueLocalConsLeftRegion := define_external('MWRAP_LipIntInfValueLocalConsLeftRegion','MAPLE', LIB=DLLPATH):
+LipIntInfValueLocalConsRightRegion := define_external('MWRAP_LipIntInfValueLocalConsRightRegion','MAPLE', LIB=DLLPATH):
+LipIntInfComputeLipschitz := define_external('MWRAP_LipIntInfComputeLipschitz','MAPLE', LIB=DLLPATH):
+LipIntInfComputeLocalLipschitz := define_external('MWRAP_LipIntInfComputeLocalLipschitz','MAPLE', LIB=DLLPATH):
+LipIntInfComputeLipschitzCV := define_external('MWRAP_LipIntInfComputeLipschitzCV','MAPLE', LIB=DLLPATH):
+LipIntInfComputeLipschitzSplit := define_external('MWRAP_LipIntInfComputeLipschitzSplit','MAPLE', LIB=DLLPATH):
+LipIntInfSmoothLipschitz := define_external('MWRAP_LipIntInfSmoothLipschitz','MAPLE', LIB=DLLPATH):
+LipIntInfGetLipConst := define_external('MWRAP_LipIntInfGetLipConst','MAPLE', LIB=DLLPATH):
+LipIntInfGetScaling := define_external('MWRAP_LipIntInfGetScaling','MAPLE', LIB=DLLPATH):
+LipIntInfComputeScaling := define_external('MWRAP_LipIntInfComputeScaling','MAPLE', LIB=DLLPATH):
+LipIntInfVerifyMonotonicity := define_external('MWRAP_LipIntInfVerifyMonotonicity','MAPLE', LIB=DLLPATH):
+LipIntInfVerifyMonotonicityLeftRegion := define_external('MWRAP_LipIntInfVerifyMonotonicityLeftRegion','MAPLE', LIB=DLLPATH):
+LipIntInfVerifyMonotonicityRightRegion := define_external('MWRAP_LipIntInfVerifyMonotonicityRightRegion','MAPLE', LIB=DLLPATH):
+LipIntSetBounds := define_external('MWRAP_SetBoundaries','MAPLE', LIB=DLLPATH):
+LipIntClearBounds := define_external('MWRAP_ClearBoundaries','MAPLE', LIB=DLLPATH):
+
+STCBuildLipInterpolant := define_external('MWRAP_STCBuildLipInterpolant','MAPLE', LIB=DLLPATH):
+STCBuildLipInterpolantExplicit := define_external('MWRAP_STCBuildLipInterpolantExplicit','MAPLE', LIB=DLLPATH):
+STCValue := define_external('MWRAP_STCValue','MAPLE', LIB=DLLPATH):
+STCValueExplicit := define_external('MWRAP_STCValueExplicit','MAPLE', LIB=DLLPATH):
+STCFreeMemory := define_external('MWRAP_STCFreeMemory','MAPLE', LIB=DLLPATH):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Section 1: Generation of the data and its interpolation</Text-field></Title>
+<Group labelreference="L10">
+<Input><Text-field style="Text" layout="Normal">We need to declare two arrays: abscissae XD and function values YD. We will generate the data using some test function (you may change it)</Text-field>
+</Input>
+</Group>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Declaration of the function f(x) that generates the data</Text-field></Title>
+<Group labelreference="L11">
+<Input><Text-field style="Text" layout="Normal">Declare f as a procedure. </Text-field>
+</Input>
+</Group>
+<Group labelreference="L12">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f := proc( x, y)  # user's density function
+        exp(-(y-x^2)^2 - (x^2+y^2)/2);
+    end proc;</Text-field>
+</Input>
+</Group>
+<Group labelreference="L13">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"># test the density function:  evaluate f(x), plot it
+`f(0.2,0.6)=`; f(0.2,0.6);
+plot3d(f(x,y),x=-2..2,y=-1..2, axes=boxed,orientation=[25,50]);
+</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Generating the data (random abscissae, uniformly distributed in the domain)</Text-field></Title>
+<Group labelreference="L14">
+<Input><Text-field style="Text" layout="Normal">Boundaries, and also the dimension of x and declaration of various vectors. </Text-field>
+</Input>
+</Group>
+<Group labelreference="L15">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Lo:=Vector(1..2,datatype=float[8],[-2,-1]):  
+Up:=Vector(1..2,datatype=float[8],[2,2]):
+dim:=2: 
+Ndata:=600:
+Xr:=[stats[random, uniform]((Ndata)*dim)]: # uniformly distributed numbers
+XD:=Matrix(1..Ndata, 1..dim, datatype=float[8], order=C_order): # will hold the data abscissae
+YD:=Vector(1..Ndata,datatype=float[8], order=C_order): # will hold the function values
+X:=Vector(1..dim,datatype=float[8]):
+
+scale:=(x,a,b)-&gt;x*(b-a)+a: # just a scaling function
+for i from 1 to Ndata do
+ for j from 1 to dim do
+   X[j]:=scale(Xr[i*j],Lo[j],Up[j]):
+ od: 
+ YD[i]:= f(X[1],X[2]):        # record function values
+ for j from 1 to dim do
+   XD[i,j]:=X[j]:             # record data abscisae 
+ od: 
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L16">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">pointplot({seq([XD[k,1],XD[k,2]],k=1..Ndata)}); # this is how the data are distributed</Text-field>
+</Input>
+</Group>
+<Group labelreference="L17">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,orientation=[25,50]);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Executing LibLip methods to approximate function values</Text-field></Title>
+<Group labelreference="L18">
+<Input><Text-field style="Text" layout="Normal">Interpolating the data: choose any random vector X and calculate the value of f</Text-field>
+</Input>
+</Group>
+<Group labelreference="L19">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LC:=10:
+<Font encoding="UTF-8">lprint(`approximation       \134t \134t exact value     \134t error`);
+</Font>for i from 1 to 10 do
+  Xtest:=[stats[random, uniform](dim)]:   # uniformly distributed numbers
+  for j from 1 to dim do
+   X[j]:=scale(Xtest[j],Lo[j],Up[j]):
+  od: 
+  fint:=LipIntValue(dim,Ndata,X,XD,YD,LC):
+  fexact:=f(X[1],X[2]):
+<Font encoding="UTF-8">  lprint(fint,`    \134t`,fexact,`    \134t`,abs(fint-fexact)); 
+</Font>od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L20">
+<Input><Text-field style="Text" layout="Normal">Compute the Lipschitz constant from the data</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntComputeLipschitz(dim, Ndata, XD,YD);
+LC := LipIntGetLipConst();</Text-field>
+</Input>
+</Group>
+<Group labelreference="L22">
+<Input><Text-field style="Text" layout="Normal">Plot the interpolant together with the data. We define an auxiliary function for this</Text-field>
+</Input>
+</Group>
+<Group labelreference="L23">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f_aux:=(t1,t2)-&gt;LipIntValue(dim,Ndata, convert([t1,t2],Vector,datatype=float[8]), XD,YD,LC):
+f_aux(0.4,0.2);  # test its usage
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L24">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">R:=20.0: # plot resolutions: determines how many points to plot
+sdata :=[seq([ seq([i/R,j/R,f_aux(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[25,50]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+<Group labelreference="L25">
+<Input><Text-field style="Text" layout="Normal">Now use a different method of locally Lipschitz functions</Text-field>
+</Input>
+</Group>
+<Group labelreference="L26">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntComputeLocalLipschitz(dim,Ndata,XD,YD); 
+f_aux1:=(t1,t2)-&gt;LipIntValueLocal(dim,Ndata, convert([t1,t2],Vector,datatype=float[8]), XD,YD):
+f_aux1(0.1,0.2);  #test the auxiliary function</Text-field>
+</Input>
+</Group>
+<Group labelreference="L27">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">R:=20.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux1(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[25,50]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+</Section>
+<Group labelreference="L28">
+<Input><Text-field style="Text" layout="Normal"> The next section gives an example of smoothing noisy data</Text-field>
+</Input>
+</Group>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Smoothing noisy data</Text-field></Title>
+<Group labelreference="L29">
+<Input><Text-field style="Text" layout="Normal">We shall use the same data with some added uniformly distributed noise</Text-field>
+</Input>
+</Group>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3">Add noise to the data</Text-field></Title>
+<Group labelreference="L30">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Noiselevel:=0.05:
+Noise:=[stats[random, uniform[-1,1]](Ndata)]: # uniformly distributed numbers</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for i from 1 to Ndata do
+  YD[i]:=YD[i]+Noiselevel*Noise[i]:
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L32">
+<Input><Text-field style="Text" layout="Normal">Let us plot the interpolant of the noisy data, to see that it is really inadequate</Text-field>
+</Input>
+</Group>
+<Group labelreference="L33">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntComputeLipschitz(dim, Ndata, XD,YD);
+LC := LipIntGetLipConst();
+R:=20.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[25,50]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3">Smoothing using a desired Lipschitz constant</Text-field></Title>
+<Group labelreference="L34">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LC:=1.5:  # this is a desired value
+TD:=Vector(1..Ndata,datatype=float[8], order=C_order): # will hold the smoothened values</Text-field>
+</Input>
+</Group>
+<Group labelreference="L35">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntSmoothLipschitz(dim, Ndata,XD,YD,TD,LC,0,0,0);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3">Plot interpolant of the smoothened data</Text-field></Title>
+<Group labelreference="L36">
+<Input><Text-field style="Text" layout="Normal">Notice that we use TD (the array that contains smoothened data) rather than YD</Text-field>
+</Input>
+</Group>
+<Group labelreference="L37">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f_aux2:=(t1,t2)-&gt;LipIntValue(dim,Ndata, convert([t1,t2],Vector,datatype=float[8]), XD,TD,LC):
+f_aux2(0.4,0.2);  #test it</Text-field>
+</Input>
+</Group>
+<Group labelreference="L38">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">R:=20.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux2(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[25,50]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+</Section>
+<Group labelreference="L39">
+<Input><Text-field style="Text" layout="Normal"> Next we determine the Lipschitz constant automatically by using sampe splitting</Text-field>
+</Input>
+</Group>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3">Determining the Lipschitz constant</Text-field></Title>
+<Group labelreference="L40">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntComputeLipschitzSplit(dim,Ndata,XD,YD,TD,0.2,0);
+#LipIntComputeLipschitzCV(dim,40,XD,YD,TD,0);
+`Estimated Lipschitz constant from noisy data`;LC := LipIntGetLipConst();</Text-field>
+</Input>
+</Group>
+<Group labelreference="L41">
+<Input><Text-field style="Text" layout="Normal">The estimation routine has already computed the Lipschitz constant, and has smoothened all data (it returned array TD)</Text-field>
+</Input>
+</Group>
+<Group labelreference="L42">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f_aux2:=(t1,t2)-&gt;LipIntValue(dim,Ndata, convert([t1,t2],Vector,datatype=float[8]), XD,TD,LC):
+R:=20.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux2(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[25,50]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 3" layout="Heading 3">Using very fast interpolation method with preprocessing, with much more data</Text-field></Title>
+<Group labelreference="L43">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Ndata:=20000:
+Xr:=[stats[random, uniform]((Ndata)*dim)]: # uniformly distributed numbers
+XD:=Matrix(1..Ndata, 1..2, datatype=float[8], order=C_order): # will hold the data abscissae
+YD:=Vector(1..Ndata,datatype=float[8], order=C_order): # will hold the function values
+X:=Vector(1..2,datatype=float[8]):
+
+for i from 1 to Ndata do
+ for j from 1 to dim do
+   X[j]:=scale(Xr[i*j],Lo[j],Up[j]):
+ od: 
+ YD[i]:= f(X[1],X[2]):        # record function values
+ for j from 1 to dim do
+   XD[i,j]:=X[j]:             # record data abscisae 
+ od: 
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L44">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">STCFreeMemory(); # just in case we are repeating
+STCBuildLipInterpolant(dim,Ndata,XD,YD); # nonzero result indicates an error
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L45">
+<Input><Text-field style="Text" layout="Normal">Observe the speed with which this method generates the surface. If you change STCValue to STCValueExplicit in the libe below, the calculation time will be much higher</Text-field>
+</Input>
+</Group>
+<Group labelreference="L46">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f_aux3:=(t1,t2)-&gt;STCValue(convert([t1,t2],Vector,datatype=float[8])):</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">R:=20.0: # plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux3(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[25,50]):
+#S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1});</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Section 2: Mootone interpolation</Text-field></Title>
+<Group labelreference="L47">
+<Input><Text-field style="Text" layout="Normal">We illustrate monotone interpolation on an example of a monotone increasing function in x1 and decreasing in x2</Text-field>
+</Input>
+</Group>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Generate data by using a monotone function </Text-field></Title>
+<Group labelreference="L48">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g := proc( x, y)  # user's test function
+        min(0.5,x*(1-y)/(2-x+y-x*y));
+    end proc:</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot3d(g(x,y),x=0..1,y=0..1, axes=boxed,orientation=[-140,60]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L49">
+<Input><Text-field style="Text" layout="Normal">The commands below just generate the data to interpolate</Text-field>
+</Input>
+</Group>
+<Group labelreference="L50">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Lo:=Vector(1..2,datatype=float[8],[0,0]):  
+Up:=Vector(1..2,datatype=float[8],[1,1]):
+Cons:=Vector(1..2,datatype=integer[4],[1,-1]):
+dim:=2: 
+Ndata:=100:
+Xr:=[stats[random, uniform]((Ndata)*dim)]: # uniformly distributed numbers
+Noise:=[stats[random, uniform[-1,1]](Ndata)]: # uniformly distributed numbers
+XD:=Matrix(1..Ndata, 1..2, datatype=float[8], order=C_order): # will hold the data abscissae
+YD:=Vector(1..Ndata,datatype=float[8], order=C_order): # will hold the function values
+X:=Vector(1..2,datatype=float[8]):
+
+for i from 1 to Ndata do
+ for j from 1 to dim do    X[j]:=Xr[i*j]:  od: 
+ YD[i]:= g(X[1],X[2])+ 0.01*Noise[i]:        # record function values
+ for j from 1 to dim do
+   XD[i,j]:=X[j]:             # record data abscisae 
+ od: 
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L51">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,orientation=[-140,60]);</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">Interpolation and approximation</Text-field></Title>
+<Group labelreference="L52">
+<Input><Text-field style="Text" layout="Normal">First calculate the Lipschitz constant, then plot the interpolant with no monotonicity constraints</Text-field>
+</Input>
+</Group>
+<Group labelreference="L53">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntComputeLipschitz(dim, Ndata, XD,YD);
+LC := LipIntGetLipConst();</Text-field>
+</Input>
+</Group>
+<Group labelreference="L54">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f_aux:=(t1,t2)-&gt;LipIntValue(dim,Ndata, convert([t1,t2],Vector,datatype=float[8]), XD,YD,LC):
+R:=20.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[-140,60]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L55">
+<Input><Text-field style="Text" layout="Normal">The interpolant above is not necessarily monotone, but we can impose monotonicity as shown below (using <Font bold="true">LipIntValueCons</Font> command)</Text-field>
+</Input>
+</Group>
+<Group labelreference="L56">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f_aux:=(t1,t2)-&gt;LipIntValueCons(dim,Ndata, Cons, convert([t1,t2],Vector,datatype=float[8]), XD,YD,LC):
+
+sdata :=[seq([ seq([i/R,j/R,f_aux(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[-140,60]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+<Group labelreference="L57">
+<Input><Text-field style="Text" layout="Normal">Next we impose monotonicity only in part of the domain, namely for x1,x2 &lt;=0.5 (left region, shaded)</Text-field>
+</Input>
+</Group>
+<Group labelreference="L58">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Region:=Vector(1..2,datatype=float[8],[0.5,0.5]):
+Cons[1]:=+1; Cons[2]:=-1;       # try to change these to see what happens 
+LipIntComputeLocalLipschitz(dim,Ndata,XD,YD);
+f_aux1:=(t1,t2)-&gt;LipIntValueLocalConsLeftRegion(dim,Ndata, Cons, convert([t1,t2],Vector,datatype=float[8]), XD,YD,Region):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L59">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sdata :=[seq([ seq([i/R,j/R,f_aux1(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[-140,60]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+S3:=plot3d(0,x=0..Region[1],y=0..Region[2], color=BLACK):
+display({S1,S2,S3});</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Section 3: Reading data from a file and its interpolation</Text-field></Title>
+<Group labelreference="L60">
+<Input><Text-field style="Text" layout="Normal">The following commands just read some data from a text file</Text-field>
+</Input>
+</Group>
+<Group labelreference="L61">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">fp := fopen(`aluminiumdata.txt`,READ,TEXT):
+dimensions := fscanf(fp, `%d %d`):
+dim:= dimensions[1]: 
+Ndata:=dimensions[2]:
+XD:=Matrix(1..Ndata, 1..dim,datatype=float[8], order=C_order):
+YD:=Vector(1..Ndata,datatype=float[8], order=C_order): # will hold the function values
+X:=Vector(1..dim,datatype=float[8]):
+for i from 1 to Ndata do
+  for j from 1 to dim do
+	dat := fscanf(fp, `%f `):
+	XD[i,j]:= dat[1]:
+  od:
+  dat := fscanf(fp, `%f`):
+  YD[i]:= dat[1]:
+od:
+fclose(fp):
+Lo:=Vector(1..2,datatype=float[8],[-2.3,-0.1]):  
+Up:=Vector(1..2,datatype=float[8],[0,1.15]):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L62">
+<Input><Text-field style="Text" layout="Normal">The next command calculates the local Lipschitz constants</Text-field>
+</Input>
+</Group>
+<Group labelreference="L63">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntComputeLocalLipschitz(dim, Ndata, XD,YD);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L64">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">f_aux:=(t1,t2)-&gt;LipIntValueLocal(dim,Ndata, convert([t1,t2],Vector,datatype=float[8]), XD,YD):
+R:=30.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[-140,60]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+<Group labelreference="L65">
+<Input><Text-field style="Text" layout="Normal">It looks like the data are monotone, and the interpolant is not. Next we impose monotonicity constraints, and the result </Text-field>
+</Input>
+</Group>
+<Group labelreference="L66">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Cons:=Vector(1..2,datatype=integer[4],[1,1]): 
+f_aux1:=(t1,t2)-&gt;LipIntValueLocalCons(dim,Ndata, Cons, convert([t1,t2],Vector,datatype=float[8]), XD,YD):
+R:=20.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux1(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[-140,60]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+display({S1,S2});</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Section 4: Another example, now using bounds on function values</Text-field></Title>
+<Group labelreference="L67">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">g := proc( x, y)  # user's test function
+        min(0.8,x*y/(2-x-y+x*y));
+    end proc;</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">plot3d(g(x,y),x=0..1,y=0..1, axes=boxed,orientation=[-80,70],grid=[50,50]);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L68">
+<Input><Text-field style="Text" layout="Normal">Next we define the upper and lower bounds on function values. Note that the last (dim+1)-st argument is the parameter containing the Lipschitz constant</Text-field>
+</Input>
+</Group>
+<Group labelreference="L69">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">low := proc( x, y,p)   max(0,1-p*((1-x)+(1-y)));  end proc;
+up:=proc(x,y,p) min(x,y); end proc;
+</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">PL1:=plot3d({low(x,y,1)},x=0..1,y=0..1, axes=boxed,orientation=[-60,80],grid=[40,40],style=WIREFRAME,color=BLUE):
+PL2:=plot3d({up(x,y,1)},x=0..1,y=0..1, axes=boxed,orientation=[-60,80],grid=[20,20],style=WIREFRAME,color=RED):
+display({PL1,PL2});
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L70">
+<Input><Text-field style="Text" layout="Normal">In the above plot, the graph of the function must lie between the red and blue surfaces. Next generate the data with noise</Text-field>
+</Input>
+</Group>
+<Group labelreference="L71">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Lo:=Vector(1..2,datatype=float[8],[0,0]):  
+Up:=Vector(1..2,datatype=float[8],[1,1]):
+Cons:=Vector(1..2,datatype=integer[4],[1,1]):
+dim:=2: 
+Ndata:=100:
+Xr:=[stats[random, uniform]((Ndata)*dim)]: # uniformly distributed numbers
+Noise:=[stats[random, uniform[-1,1]](Ndata)]: # uniformly distributed numbers
+XD:=Matrix(1..Ndata, 1..2, datatype=float[8], order=C_order): # will hold the data abscissae
+YD:=Vector(1..Ndata,datatype=float[8], order=C_order): # will hold the function values
+TD:=Vector(1..Ndata,datatype=float[8], order=C_order): # will hold the smoothened values
+X:=Vector(1..2,datatype=float[8]):
+
+for i from 1 to Ndata do
+ for j from 1 to dim do    X[j]:=Xr[i*j]:  od: 
+ YD[i]:= g(X[1],X[2])+ 0.1*Noise[i]:        # record function values
+ for j from 1 to dim do
+   XD[i,j]:=X[j]:             # record data abscisae 
+ od: 
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L72">
+<Input><Text-field style="Text" layout="Normal">Now we smooth the data, and ensure they also satisfy low(x)&lt;y&lt;up(x)</Text-field>
+</Input>
+</Group>
+<Group labelreference="L73">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LC:=1.0:
+LipIntSetBounds(up,low);
+LipIntSmoothLipschitz(dim, Ndata,XD,YD,TD,LC,0,0,0);
+f_aux2:=(t1,t2)-&gt;LipIntValue(dim,Ndata, convert([t1,t2],Vector,datatype=float[8]), XD,TD,LC):
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L74">
+<Input><Text-field style="Text" layout="Normal">Plot the surface and the original (red croses) and smoothened data (black dots). It lies between the upper and lower bounds as required</Text-field>
+</Input>
+</Group>
+<Group labelreference="L75">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">R:=20.0: #plot resolution
+sdata :=[seq([ seq([i/R,j/R,f_aux2(i/R,j/R)], i=R*Lo[1]..R*Up[1])], j=R*Lo[2]..R*Up[2])]:
+S1:=surfdata(sdata,axes=normal,grid=[100,100],style=HIDDEN, axes=BOXED,orientation=[-10,65]):
+S2:=pointplot3d({seq([XD[k,1],XD[k,2],TD[k]],k=1..Ndata)},axes=BOXED,color=BLACK):
+S3:=pointplot3d({seq([XD[k,1],XD[k,2],YD[k]],k=1..Ndata)},axes=BOXED,color=RED,symbol=CROSS):
+display({S1,S2,S3});</Text-field>
+</Input>
+</Group>
+<Group labelreference="L76">
+<Input><Text-field style="Text" layout="Normal">The bounds also work when estimating the Lipschitz constant from noisy data using sampl splitting or cross-validation</Text-field>
+</Input>
+</Group>
+<Group labelreference="L77">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntComputeLipschitzSplit(dim,Ndata,XD,YD,TD,0.4,0);
+`Estimated Lipschitz constant from noisy data`;LC := LipIntGetLipConst();;
+</Text-field>
+</Input>
+</Group>
+<Group labelreference="L78">
+<Input><Text-field style="Text" layout="Normal">To clear the bounds use command below. You can plot the graph of the interpolant again to see that it does not satisfy the bounds anymore</Text-field>
+</Input>
+</Group>
+<Group labelreference="L79">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">LipIntClearBounds();</Text-field>
+</Input>
+</Group>
+<Group labelreference="L80">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">References</Text-field></Title>
+<Group labelreference="L81">
+<Input><Text-field style="Text" layout="Normal">The methods implemented in LibLip are based on the results outlined in:</Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal">Beliakov, G., A review of applications of the Cutting Angle methods, in Continuous Optimization, A. Rubinov and V. Jeyakumar, Editors. 2005, Springer: New York. p. 209-248.
+</Text-field><Text-field style="Text" layout="Normal">Beliakov, G., Interpolation of Lipschitz functions. J. of Comp. and Applied Mathematics, 2006. 196: p. 20-44.
+
+Beliakov, G., Monotonicity preserving approximation of multivariate scattered data. BIT, 2005. 45: p. 653-677.</Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal">Please cite these papers when you need to reference LibLip</Text-field>
+</Input>
+</Group>
+</Section>
+<Group labelreference="L82">
+<Input><Text-field style="Text" layout="Normal">Please consult <Font bold="true">http://www.deakin.edu.au/~gleb </Font>for updates.</Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"><Font bold="true">We appreciate your comments about your experiences using LibLip and this Maple toolbox. Please send your feedback to</Font></Text-field><Text-field style="Text" layout="Normal"><Font bold="true">gbeliako@gmail.com</Font></Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal"><Font italic="true">Legal Notice: The copyright for this application is owned by the author(s). Neither Maplesoft nor the author are responsible for any errors contained within and are not liable for any damages resulting from the use of this material. This application is intended for non-commercial, non-profit use only. Contact the author for permission if you wish to use this application in for-profit activities.</Font></Text-field><Text-field style="Text" layout="Normal"></Text-field><Text-field style="Text" layout="Normal">This project was carried out with the assistance of Ilya Khriapin, which is greatefully acknowledged.</Text-field>
+</Input>
+</Group><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field><Text-field opaque="false" subscript="false" underline="false" superscript="false" bold="false" foreground="[0,0,0]" italic="false" executable="false" selection-placeholder="false" size="12" readonly="false" background="[255,255,255]" placeholder="false" family="Times New Roman" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Worksheet>
