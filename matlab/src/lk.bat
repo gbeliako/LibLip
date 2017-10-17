@@ -1,0 +1,1 @@
+mex matlabliblip.obj glpkvc6.lib liblip2vc6.lib 

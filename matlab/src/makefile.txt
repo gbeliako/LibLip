@@ -1,0 +1,37 @@
+# C++ compiler variables
+CC= g++ 
+INCLUDE= -Itnt/ -Ilp_solve/ -Iqhull/ -Iglpk/
+CPPFLAGS= -O2 -Wno-deprecated -Itnt/
+LINKFLAGS= -O
+LINK_LIBS= -lm 
+OBJS=	forest.o \
+	interpol.o \
+	liblip.o \
+	slipint.o
+
+
+OTHERLIBS=libglpk.a libqhull.a
+
+all: liblip.a
+
+liblip.a: $(OBJS)
+	@echo if 'ar' or 'ranlib' fails
+	ar r liblip.a $(OBJS) $(OTHERLIBS)
+
+forest.o:	forest.cpp
+		$(CC) $(CPPFLAGS) -c forest.cpp  $(INCLUDE)
+		
+interpol.o:	interpol.cpp
+		$(CC) $(CPPFLAGS) -c interpol.cpp  $(INCLUDE)
+		
+liblip.o:	liblip.cpp
+		$(CC) $(CPPFLAGS) -c liblip.cpp  $(INCLUDE)
+		
+slipint.o:	slipint.cpp
+		$(CC) $(CPPFLAGS) -c slipint.cpp  $(INCLUDE)
+
+
+
+clean:
+	rm -f *.o
+	rm -f *.a	
