@@ -1,0 +1,4 @@
+To compile liblip libary for matlab
+execute build.m
+it should compile the appropriate mex file from the sources, provided the C/C++ compilers
+are properly installed on your system
